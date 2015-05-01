@@ -1,18 +1,22 @@
 ---
 layout: workshop
 root: .
-venue: FIXME (brief name of host site)
-address: FIXME (street address of home location)
-country: FIXME (country (hyphenated if need be, like 'United-Kingdom')
-language: FIXME (language code like 'en' or 'fr')
-latlng: (fractional latitude and longitude like 41.7901128,-87.6007318)
-humandate: FIXME (use the format 'Feb 17-18, 2020' (without the quotes)
-humantime: FIXME (use the format '9:00 am - 4:30 pm' (without the quotes)
-startdate: FIXME (use YYYY-MM-DD format like 2015-01-01)
-enddate: FIXME (use YYYY-MM-DD format like 2015-01-02)
+vvenue: University of Washington - Seattle
+address:  WRF Data Science Studio, Physics/Astronomy Tower (6th Floor), University of Washington, Seattle, WA
+country: United-States
+language: en
+latlng: 47.653371,-122.3118098
+registration: open
+humandate: Jun 25-26 2015 
+humantime: 9:00 am - 4:30 pm 
+startdate: 2015-06-25 
+enddate: 2015-06-26 
+###################################################################################
+########## Names in alpabetical order by surname, please ##########################
+###################################################################################
 instructor: (list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"])
 helper: (list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"])
-contact: FIXME (contact email address for workshop organizer)
+contact: bmarwick@uw.edu
 etherpad: # FIXME (insert the URL for your Etherpad if you're using one)
 eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 1234567890AB key for Eventbrite registration)
 ---
@@ -58,7 +62,24 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
   concepts and tools, including program design, version control, data
   management, and task automation.  Participants will be encouraged to
   help one another and to apply what they have learned to their own
-  research problems.
+  research problems.  The goal of the workshop is for participants to acquire skills to:
+</p>
+
+<ul>
+<li>enable automation of repetitive tasks</li>
+<li>work with structured data</li>
+<li>improve the reproducibility of your research</li>
+<li>version control code for reuse and collaboration.</li>
+</ul>
+ 
+<p>
+  This workshop is supported by the UW <a href="http://escience.washington.edu/">
+  eScience Institute</a>. Priority will thus be given to UW-affiliated students, 
+  staff and faculty. We have a <a href="http://lists.software-carpentry.org/mailman/listinfo/seattle_lists.software-carpentry.org">UW Software Carpentry email list</a> 
+  that you can join to keep up with local plans, to get advice, ask questions, 
+  etc. after the workshop is over.
+  
+</p>
 </p>
 <p align="center">
   <em>
@@ -76,7 +97,12 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
 -->
 <p>
   <strong>Who:</strong>
-  The course is aimed at graduate students and other researchers.
+    The course is aimed at graduate students, staff, faculty and other 
+  researchers at UW. No previous experience with programming is required. If
+  you do have experience in the topics in the syllabus and want to help,
+  send us an email. The instructors are UW students, staff, faculty and 
+  other active researchers.  We use the <a href="https://twitter.com/search?q=%23swcuw">#swcuw</a> hashtag 
+  on Twitter during class. 
 </p>
 
 <!--
@@ -140,27 +166,43 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
 -->
 <h2>Schedule</h2>
 
+<p>
+  We are running two full concurrent sessions, one in each room. There 
+  are two key differences between the sessions. First is that one session
+  will teach programming with <b>Python</b> and the other session will teach programming 
+  with <b>R</b>, all the other class content will be the same. <br><br>
+  As a rough guide to choosing which language to learn, Python might be best for you if you're working in the   
+  natural or physical sciences, and if you're in the social sciences and humanities then 
+  R might be more valuable. <br><br>
+  The second difference between the two sessions is that the instructors 
+  in the Python session mostly come from the natural and physical sciences, 
+  while the instructors in the R session mostly come from the social sciences 
+  and humanities. These is simply a convenient way to organise the lessons, 
+  and of course you're welcome to join whichever session you think will 
+  benefit you the most. The choice is completely up to you.  
+</p>
+
 <div class="row">
   <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
-      <tr> <td>10:30</td> <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>09:00</td> <td><a href="http://swcarpentry.github.io/shell-novice/">Automating tasks with the Unix shell</a></td> </tr>
+      <tr> <td><em>10:30</em></td> <td><em>Coffee break</em></td> </tr>
+      <tr> <td>12:00</td> <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td> <td>Intro to <b><a href="http://swcarpentry.github.io/python-novice-inflammation/">Python</a></b> <em>or</em> <b><a href="http://swcarpentry.github.io/r-novice-inflammation/">R</a></b></td> </tr>
+      <tr> <td><em>14:30</em></td> <td><em>Coffee break</em></td> </tr>
+      <tr> <td>16:00</td> <td>Wrap-up</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>09:00</td>Building programs with <b><a href="http://swcarpentry.github.io/python-novice-inflammation/">Python</a></b> <em>or</em> <b><a href="http://swcarpentry.github.io/r-novice-inflammation/">R</a></b></td>   </tr>
+      <tr> <td><em>10:30</em></td> <td><em>Coffee break</em></td> </tr>
+      <tr> <td>12:00</td> <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td> <td><a href="http://swcarpentry.github.io/git-novice/">Version control with Git</a></td> </tr>
+      <tr> <td><em>14:30</em></td> <td><em>Coffee break</em></td> </tr>
+      <tr> <td>16:00</td> <td>Wrap-up</td> </tr>
     </table>
   </div>
 </div>
@@ -210,13 +252,13 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
   <div class="col-md-6">
     <h3>The Unix Shell</h3>
     <ul>
-      <li>Files and directories</li>
+      <li>Files and directories: <code>pwd</code>, <code>cd</code>, <code>ls</code>, <code>mkdir</code>, ...</li>
       <li>History and tab completion</li>
       <li>Pipes and redirection</li>
       <li>Looping over files</li>
       <li>Creating and running shell scripts</li>
-      <li>Finding things</li>
-      <li><a href="{{site.swc_lessons}}/ref/01-shell.html">Reference...</a></li>
+      <li>Finding things: <code>grep</code>, <code>find</code>, ...</li>
+      <li><a href="http://swcarpentry.github.io/shell-novice/reference.html">Reference...</a></li>
     </ul>
   </div>
   <div class="col-md-6">
@@ -226,25 +268,23 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
       <li>Working with arrays</li>
       <li>Reading and plotting data</li>
       <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
+      <li>Loops and conditionals: <code>for</code>, <code>if</code>, <code>else</code>, ...</li>
       <li>Defensive programming</li>
       <li>Using Python from the command line</li>
-      <li><a href="{{site.swc_lessons}}/ref/03-python.html">Reference...</a></li>
+      <li><a href="http://swcarpentry.github.io/python-novice-inflammation/reference.html">Reference...</a></li>
     </ul>
   </div>
-  <!--
   <div class="col-md-6">
     <h3>Programming in R</h3>
     <ul>
       <li>Working with vectors and data frames</li>
       <li>Reading and plotting data</li>
       <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
+      <li>Loops and conditionals: <code>for</code>, <code>if</code>, <code>else</code></li>
       <li>Using R from the command line</li>
-      <li><a href="{{site.swc_lessons}}/ref/06-R.html">Reference...</a></li>
+      <li><a href="http://swcarpentry.github.io/r-novice-inflammation/reference.html">Reference...</a></li>
     </ul>
   </div>
-  -->
 </div>
 
 <div class="row">
@@ -259,24 +299,15 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
       <li>Resolving conflicts</li>
       <li>Open licenses</li>
       <li>Where to host work, and why</li>
-      <li><a href="{{site.swc_lessons}}/ref/02-git.html">Reference...</a></li>
+      <li><a href="http://swcarpentry.github.io/git-novice/reference.html">Reference...</a></li>
     </ul>
   </div>
   <div class="col-md-6">
-    <h3>Managing Data with SQL</h3>
-    <ul>
-      <li>Reading and sorting data</li>
-      <li>Filtering with <code>where</code></li>
-      <li>Calculating new values on the fly</li>
-      <li>Handling missing values</li>
-      <li>Combining values using aggregation</li>
-      <li>Combining information from multiple tables using <code>join</code></li>
-      <li>Creating, modifying, and deleting data</li>
-      <li>Programming with databases</li>
-      <li><a href="{{site.swc_lessons}}/ref/04-sql.html">Reference...</a></li>
-    </ul>
+   
   </div>
 </div>
+
+
 
 <hr/>
 
@@ -301,6 +332,14 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
   Once you are done installing the software listed below,
   please go to <a href="setup/index.html">this page</a>,
   which has instructions on how to test that everything was installed correctly.
+</p>><p>
+   If you haven't already, please register for a free account at GitHub.
+   If you have an edu email, you can <a href="https://education.github.com/discount_requests/new">register 
+   for a free educational account</a> which has some features usually only found in paid 
+   accounts. We will use this service as part of the lesson on version control.
+</p>
+<p>
+  The datasets used in the lessons can be downloaded from here (right-click -> save as): <a href="data/shell_filesystem.zip">shell lesson data</a>, <a href="data/R_and_Python_data_files.zip">R and Python lesson data</a>.
 </p>
 
 <div id="editor"> <!-- Start of 'editor' section. -->
@@ -595,38 +634,7 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
   </div>
 </div> <!-- End of 'R' section. -->
 
-<div id="sql"> <!-- Start of 'SQLite' section. -->
-  <h3>SQLite</h3>
 
-  <p>
-    SQL is a specialized programming language used with databases.  We
-    use a simple database manager called
-    <a href="http://www.sqlite.org/">SQLite</a> in our lessons.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="sql-windows">Windows</h4>
-      <p>
-      The <a href="{{site.swc_github}}/windows-installer">Software Carpentry
-          Windows Installer</a> installs <code>sqlite3</code> for Windows. If
-      you used the installer to configure `nano`, you don't need to run it again.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="sql-macosx">Mac OS X</h4>
-      <p>
-	<code>sqlite3</code> comes pre-installed on Mac OS X.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="sql-linux">Linux</h4>
-      <p>
-	<code>sqlite3</code> comes pre-installed on Linux.
-      </p>
-    </div>
-  </div>
-</div> <!-- End of 'SQLite' section. -->
 
 <!--
   Uncomment this section if you are using our virtual machine.
