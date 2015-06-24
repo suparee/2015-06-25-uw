@@ -72,7 +72,7 @@ CHECKS = [
     'git',
     'hg',              # Command line tool
     #'mercurial',       # Python package
-    'EasyMercurial',
+    #'EasyMercurial',
 # Build tools and packaging
     'make',
     'virtual-pypi-installer',
@@ -97,8 +97,8 @@ CHECKS = [
     'pandas',
     'sympy',
     'Cython',
-    'networkx',
-    'mayavi.mlab',
+    #'networkx',
+    #'mayavi.mlab',
     ]
 
 CHECKER = {}
